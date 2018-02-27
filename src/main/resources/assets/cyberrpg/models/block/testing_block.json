@@ -1,21 +1,24 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-	    "0": "blocks/bedrock",
-        "particle": "blocks/stone"
+        "0": "blocks/cauldron_side",
+        "1": "blocks/concrete_powder_green",
+        "2": "blocks/beacon",
+        "3": "blocks/bookshelf",
+        "4": "blocks/log_birch_top"
     },
     "elements": [
         {
             "name": "Cube",
-            "from": [ 5.0, 1.0, 5.0 ], 
-            "to": [ 11.0, 7.0, 9.0 ], 
+            "from": [ 4.0, 0.0, 4.0 ], 
+            "to": [ 13.0, 9.0, 10.0 ], 
             "faces": {
-                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
-                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 4.0, 6.0 ] },
-                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
-                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 4.0, 6.0 ] },
-                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 4.0 ] },
-                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 4.0 ] }
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#3", "uv": [ 0.0, 16.0, 16.0, 0.0 ] },
+                "down": { "texture": "#4", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
             }
         }
     ]
